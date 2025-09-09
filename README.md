@@ -15,7 +15,7 @@ A lightweight Windows GUI for AI image generation with batch support, 1.5× upsc
 
 ## Requirements
 - Windows 10 or Windows 11 (64-bit). 32-bit systems are not supported.
-- NVIDIA GPU with CUDA support (CUDA 12.8 or newer). Recommended: NVIDIA RTX 20-series or newer.
+- NVIDIA GPU with CUDA support (CUDA 12.8 is used by default). Recommended: NVIDIA RTX 20-series or newer.
 - Python 3.12 (tested with 3.12.10) — https://www.python.org/downloads/release/python-31210/
 - Git for Windows — https://git-scm.com/downloads/win
 
@@ -31,7 +31,7 @@ A lightweight Windows GUI for AI image generation with batch support, 1.5× upsc
 ## Model filename conventions
 - To enable SDXL models, include `xl` or `sdxl` in the model filename (for example: my-model.sdxl.safetensors).
 - To enable v-prediction models, include `vp`, `v-pred`, or a similar tag in the model filename (for example: my-model-vp.safetensors).
-- You can combine tags in one filename (e.g., `my-sdxl-vp.ckpt`).
+- You can combine tags in one filename (e.g., `my-sdxl-vp.safetensors`).
 - The GUI also provides a checkbox to manually enable v-prediction.
 
 ## Output and metadata
