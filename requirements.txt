@@ -1,4 +1,6 @@
-torch torchvision --index-url https://download.pytorch.org/whl/cu128
+--index-url https://download.pytorch.org/whl/cu128
+torch
+torchvision
 safetensors
 compel
 pillow
