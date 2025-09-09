@@ -3,6 +3,8 @@ AI Image Generation tool with Batch support, Upscale (1.5x) and Variety (0.55) b
 Requires:
 - Python 3.12: [Download Python 3.12.10](https://www.python.org/downloads/release/python-31210/)
 - Git for Windows: [Download Git for Windows](https://git-scm.com/downloads/win)
+- NVIDIA Graphics Card with CUDA supprt - from RTX series 20 onwards (as long as it supports CUDA 12.8)
+- Windows 10 or Windows 11 64-bit (32-bit systems are not supported!)
 
 Qucik-Start Guide:
 1. Install Git for Windows.
