@@ -1,0 +1,7 @@
+torch torchvision --index-url https://download.pytorch.org/whl/cu128
+safetensors
+compel
+pillow
+transformers
+diffusers
+accelerate

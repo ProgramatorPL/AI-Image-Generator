@@ -1,0 +1,3 @@
+@echo off
+echo Installing requirements please wait patiently...
+python install -r requirements.txt
