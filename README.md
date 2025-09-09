@@ -1,27 +1,58 @@
-AI Image Generation GUI tool with Batch support, Upscale (1.5x) and Variety (0.55) build with an amazing Google Gemini 2.5 Pro.
+# AI Image Generation GUI
 
-Requires:
-- Python 3.12: [Download Python 3.12.10](https://www.python.org/downloads/release/python-31210/)
-- Git for Windows: [Download Git for Windows](https://git-scm.com/downloads/win)
-- NVIDIA Graphics Card with CUDA supprt - from RTX series 20 onwards (as long as it supports CUDA 12.8)
-- Windows 10 or Windows 11 64-bit (32-bit systems are not supported!)
+![Main Window](assets/main-window.png)
 
-Qucik-Start Guide:
+Main Window
+
+A lightweight Windows GUI for AI image generation with batch support, 1.5× upscaling, and variety control. Designed to work well with models such as Google Gemini 2.5 Pro and Stable Diffusion variants.
+
+## Features
+- Batch image generation
+- Upscaling (1.5×)
+- Variety control (example: 0.55)
+- Filename-based model autodetection (SDXL, v-pred)
+- Simple one-click start scripts for Windows
+
+## Requirements
+- Windows 10 or Windows 11 (64-bit). 32-bit systems are not supported.
+- NVIDIA GPU with CUDA support (CUDA 12.8 or newer). Recommended: NVIDIA RTX 20-series or newer.
+- Python 3.12 (tested with 3.12.10) — https://www.python.org/downloads/release/python-31210/
+- Git for Windows — https://git-scm.com/downloads/win
+
+## Quick start
 1. Install Git for Windows.
-2. Install Python 3.12. Remeber to check the ADD TO PATH option. Install without admin privilages.
-3. Git clone this repo with "git clone https://github.com/ProgramatorPL/AI-Image-Generator.git".
-4. Launch "Install Requirements.bat".
-5. Wait patiently.
-6. Launch a "Launch.bat" script and have fun generating!
+2. Install Python 3.12. When installing, check the "Add Python to PATH" option. A user-level install is fine — admin privileges are not required.
+3. Clone this repository:
+   git clone https://github.com/ProgramatorPL/Diffusion.git
+4. Run `Install Requirements.bat` and wait for the setup to complete.
+5. Run `Launch.bat` to start the GUI.
+6. Enter your prompt, adjust settings, and click Generate.
 
-NOTES!
+## Model filename conventions
+- To enable SDXL models, include `xl` or `sdxl` in the model filename (for example: my-model.sdxl.ckpt).
+- To enable v-prediction models, include `vp`, `v-pred`, or a similar tag in the model filename (for example: my-model-vp.ckpt).
+- You can combine tags in one filename (e.g., `my-sdxl-vp.ckpt`).
+- The GUI also provides a checkbox to manually enable v-prediction.
 
-If you want to use SDXL models add xl, sdxl to its filename!
+## Output and metadata
+- Generated images include metadata that Civitai and other services can read; however, some services may not detect the model name automatically. Keep this in mind when uploading.
 
-If you want to use v-prediction models add vp, v-pred or others to the filename! There is also a checkbox for enabling v-prediction manually in the GUI.
+## Troubleshooting
+- Python packages fail to install: ensure Python 3.12 is installed and available in PATH. Try `python --version`.
+- GPU acceleration not available: verify NVIDIA drivers and CUDA toolkit compatibility (CUDA 12.8+).
+- Permission errors during installation: the provided bat scripts are intended to run without admin rights — run them in a normal user shell if possible.
+- If models are not recognized: confirm your model filename follows the conventions above and that model files are placed in the expected models directory.
 
-These two things mentioned above can be combined together.
+## Recommended workflow tips
+- Use negative prompts to filter unwanted artifacts (for example: "low quality, blurry, distorted").
+- Start with lower steps and increase gradually to balance speed and image quality.
+- Use variety control to produce different outputs from the same prompt.
 
-Civitai is able to fully read the generated image metadata expect for the model name. Keep that in mind.
+## Contributing
+Contributions, bug reports and feature requests are welcome. Please open an issue with reproduction steps or submit a pull request with a clear description of the change.
 
-It still lacks some futures but I'm proud of what it is capable of doing now 😊
+## License
+Add a LICENSE file to the repository and specify the license you want to use (for example, MIT).
+
+## Where to put the screenshot
+Save the provided screenshot to `assets/main-window.png` (create the `assets` folder if it doesn't exist). The README references `assets/main-window.png` so the image will display on GitHub once the file is added.
