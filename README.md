@@ -9,7 +9,7 @@ A lightweight Windows GUI for AI image generation with batch support, 1.5× upsc
 ## Features
 - Batch image generation
 - Upscaling (1.5×)
-- Variety control (example: 0.55)
+- Variety control (Strenght:0.55)
 - Filename-based model autodetection (SDXL, v-pred)
 - Simple one-click start scripts for Windows
 
@@ -52,7 +52,7 @@ A lightweight Windows GUI for AI image generation with batch support, 1.5× upsc
 Contributions, bug reports and feature requests are welcome. Please open an issue with reproduction steps or submit a pull request with a clear description of the change.
 
 ## License
-Add a LICENSE file to the repository and specify the license you want to use (for example, MIT).
+This project is fully open source. See the LICENSE file for details (MIT License).
 
 ## Where to put the screenshot
 Save the provided screenshot to `assets/main-window.png` (create the `assets` folder if it doesn't exist). The README references `assets/main-window.png` so the image will display on GitHub once the file is added.
