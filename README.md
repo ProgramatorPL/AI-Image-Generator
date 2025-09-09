@@ -4,7 +4,7 @@
 
 Main Window
 
-A lightweight Windows GUI for AI image generation with batch support, 1.5× upscaling, and variety control. Designed to work well with models such as Google Gemini 2.5 Pro and Stable Diffusion variants.
+A lightweight Windows GUI for AI image generation with batch support, 1.5× upscaling, and variety control. Coded with Google Gemini 2.5 Pro.
 
 ## Features
 - Batch image generation
@@ -29,8 +29,8 @@ A lightweight Windows GUI for AI image generation with batch support, 1.5× upsc
 6. Enter your prompt, adjust settings, and click Generate.
 
 ## Model filename conventions
-- To enable SDXL models, include `xl` or `sdxl` in the model filename (for example: my-model.sdxl.ckpt).
-- To enable v-prediction models, include `vp`, `v-pred`, or a similar tag in the model filename (for example: my-model-vp.ckpt).
+- To enable SDXL models, include `xl` or `sdxl` in the model filename (for example: my-model.sdxl.safetensors).
+- To enable v-prediction models, include `vp`, `v-pred`, or a similar tag in the model filename (for example: my-model-vp.safetensors).
 - You can combine tags in one filename (e.g., `my-sdxl-vp.ckpt`).
 - The GUI also provides a checkbox to manually enable v-prediction.
 
@@ -53,6 +53,3 @@ Contributions, bug reports and feature requests are welcome. Please open an issu
 
 ## License
 This project is open source under the MIT License. See the LICENSE file for details.
-
-## Where to put the screenshot
-Save the provided screenshot to `assets/main-window.png` (create the `assets` folder if it doesn't exist). The README references `assets/main-window.png` so the image will display on GitHub once the file is added.
