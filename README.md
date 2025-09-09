@@ -1,4 +1,4 @@
-AI Image Generation tool with Batch support, Upscale (1.5x) and Variety (0.55) build with an amazing Google Gemini 2.5 Pro.
+AI Image Generation GUI tool with Batch support, Upscale (1.5x) and Variety (0.55) build with an amazing Google Gemini 2.5 Pro.
 
 Requires:
 - Python 3.12: [Download Python 3.12.10](https://www.python.org/downloads/release/python-31210/)
@@ -18,7 +18,7 @@ NOTES!
 
 If you want to use SDXL models add xl, sdxl to its filename!
 
-If you want to use v-prediction models add vp, v-pred or others to the filename!
+If you want to use v-prediction models add vp, v-pred or others to the filename! There is also a checkbox for enabling v-prediction manually in the GUI.
 
 These two things mentioned above can be combined together.
 
