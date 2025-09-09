@@ -15,8 +15,13 @@ Qucik-Start Guide:
 6. Launch a "Launch.bat" script and have fun generating!
 
 NOTES!
+
 If you want to use SDXL models add xl, sdxl to its filename!
+
 If you want to use v-prediction models add vp, v-pred or others to the filename!
+
 These two thing can be combined together.
+
 Civitai is able to fully read the generated image metadata expect for the model name. Keep that in mind.
+
 It still lacks some futures but I'm proud of what it is capable of doing now 😊
