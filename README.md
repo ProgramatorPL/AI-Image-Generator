@@ -4,7 +4,6 @@ Requires:
 - Python 3.12: [Download Python 3.12.10](https://www.python.org/downloads/release/python-31210/)
 - Git for Windows: [Download Git for Windows](https://git-scm.com/downloads/win)
 
-
 Qucik-Start Guide:
 1. Install Git for Windows.
 2. Install Python 3.12. Remeber to check the ADD TO PATH option. Install without admin privilages.
@@ -12,6 +11,7 @@ Qucik-Start Guide:
 4. Launch "Install Requirements.bat".
 5. Wait patiently.
 6. Launch a "Launch.bat" script and have fun generating!
+
 NOTES!
 If you want to use SDXL models add xl, sdxl to its filename!
 If you want to use v-prediction models add vp, v-pred or others to the filename!
