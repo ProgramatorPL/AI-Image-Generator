@@ -20,7 +20,7 @@ If you want to use SDXL models add xl, sdxl to its filename!
 
 If you want to use v-prediction models add vp, v-pred or others to the filename!
 
-These two thing can be combined together.
+These two things mentioned above can be combined together.
 
 Civitai is able to fully read the generated image metadata expect for the model name. Keep that in mind.
 
